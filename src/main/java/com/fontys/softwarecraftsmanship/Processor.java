@@ -11,7 +11,7 @@ package com.fontys.softwarecraftsmanship;
  */
 public class Processor extends Part {
     
-    private double speed = -1.0;
+    private double speed;
 
     public Processor(String type, String title, double price, double speed ) {
         super(type, title, price);

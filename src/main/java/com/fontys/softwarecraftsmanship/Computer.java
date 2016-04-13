@@ -7,10 +7,7 @@ public class Computer {
     List<Part> parts = new ArrayList<>();
     
     public int NumberOfParts() {
-        int count = 0;
-        for (Part p : parts) { 
-            count++;
-        }
+        int count = parts.size();
         return count;
     }
     

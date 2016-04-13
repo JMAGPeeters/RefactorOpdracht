@@ -11,8 +11,8 @@ package com.fontys.softwarecraftsmanship;
  */
 public class Memory extends Part  {
     
-    private String subtype = null;
-    private int size = -1;
+    private String subtype;
+    private int size;
 
     public Memory(String type, String title, double price, String subtype, int size) {
         super(type, title, price);
